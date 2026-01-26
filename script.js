@@ -60,16 +60,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const fakeOrders = [
   "Fatima from Kano reordered this morning!",
   "⏳ OFFER ENDING SOON Today’s deal ends shortly. Order now.",
-  "🛡️ 30-Day Satisfaction Guarantee Try HYPERCURE risk-free.",
+  "🛡️ 30-Day Satisfaction Guarantee Try ARTHRITONE risk-free.",
   "✅ Order received from Ogbomosho",
   "Mary from Lagos just ordered two bottles!",
   "Ahmed from Abuja placed an order!",
   "Chinwe from Enugu bought 2 packs!",
   "Tolu from Ibadan just ordered the complete pack!",
-  "✅ A customer in Lagos just ordered HYPERCURE",
+  "✅ A customer in Lagos just ordered ARTHRITONE",
   "🔔 New order received from Awka",
-  "✅ Someone in Uyo purchased HYPERCURE"
+  "✅ Someone in Uyo purchased ARTHRITONE"
   ];
+
 
   const fakePopup = document.getElementById('fake-order-popup');
   function showFakeOrder() {
@@ -193,4 +194,5 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 }); // END DOMContentLoaded
+
 
